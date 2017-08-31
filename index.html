@@ -9,7 +9,7 @@
 <body>
  
 <div id="container">
-    <textarea id="write" rows="6" cols="60"></textarea>
+    <textarea id="write" rows="6" cols="60"readonly></textarea>
     <ul id="keyboard">
         <li class="symbol"><span class="off">`</span><span class="on">~</span></li>
         <li class="symbol"><span class="off">1</span><span class="on">!</span></li>
@@ -52,7 +52,7 @@
         <li class="symbol"><span class="off">;</span><span class="on">:</span></li>
         <li class="symbol"><span class="off">'</span><span class="on">&quot;</span></li>
         <li class="return lastitem">return</li>
-        <li class="shift">shift</li>
+        <li class="left-shift">shift</li>
         <li class="letter">z</li>
         <li class="letter">x</li>
         <li class="letter">c</li>
@@ -63,12 +63,13 @@
         <li class="symbol"><span class="off">,</span><span class="on">&lt;</span></li>
         <li class="symbol"><span class="off">.</span><span class="on">&gt;</span></li>
         <li class="symbol"><span class="off">/</span><span class="on">?</span></li>
-        <li class="clear lastitem">clear</li>
+        <li class="right-shift lastitem">shift</li>
         <li class="space lastitem">&nbsp;</li>
+		<li class="clear lastitem">clear</li>
     </ul>
 </div>
  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script src="keyboard.js"></script>
+<script src="keyboard.js"></script>shift
 </body>
 </html>
