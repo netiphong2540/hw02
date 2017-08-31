@@ -7,7 +7,7 @@ $(function(){
 		var $this = $(this),
 			character = $this.html();
 		
-		if ($this.hasClass('shift')) {
+		if ($this.hasClass('left-shift') || $this.hasClass('right-shift')) {
 			$('.letter').toggleClass('uppercase');
 			$('.symbol span').toggle();
 			
